@@ -30,9 +30,25 @@ class WeatherProject extends Component {
 }
 
 const styles = StyleSheet.create({
-    container : {}
-    , welcome : {}
-    , input : {} 
+    container : {
+        flex : 1
+        , justifyContent: "center"
+        , alignItems: "center"
+        , backgroundColor: "#F5FCFF"
+    }
+    , welcome : {
+        fontSize: 20
+        , textAlign: "center"
+        , margin: 10
+    }
+    , input : {
+        fontSize: 20
+        , borderWidth: 2
+        , padding: 2
+        , height: 40
+        , width: 100
+        , textAlign: "center"
+    } 
 });
 
 export default WeatherProject;
